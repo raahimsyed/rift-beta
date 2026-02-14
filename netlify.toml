@@ -1,5 +1,6 @@
 [build]
   publish = "."
+  command = "echo 'Static site - no build needed'"
 
 [[redirects]]
   from = "/games"
@@ -29,9 +30,4 @@
 [[redirects]]
   from = "/social-media-partners"
   to = "/social-media-partners.html"
-  status = 200
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
   status = 200
