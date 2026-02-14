@@ -1,0 +1,37 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/games"
+  to = "/games.html"
+  status = 200
+
+[[redirects]]
+  from = "/apps"
+  to = "/apps.html"
+  status = 200
+
+[[redirects]]
+  from = "/browser"
+  to = "/browser.html"
+  status = 200
+
+[[redirects]]
+  from = "/settings"
+  to = "/settings.html"
+  status = 200
+
+[[redirects]]
+  from = "/credits"
+  to = "/credits.html"
+  status = 200
+
+[[redirects]]
+  from = "/social-media-partners"
+  to = "/social-media-partners.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
