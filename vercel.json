@@ -1,12 +1,16 @@
 {
+  "version": 2,
+  "buildCommand": "echo 'No build needed'",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    { "source": "/games", "destination": "/games.html" },
-    { "source": "/apps", "destination": "/apps.html" },
-    { "source": "/browser", "destination": "/browser.html" },
-    { "source": "/settings", "destination": "/settings.html" },
-    { "source": "/credits", "destination": "/credits.html" },
-    { "source": "/social-media-partners", "destination": "/social-media-partners.html" }
+  "routes": [
+    { "src": "/games", "dest": "/games.html" },
+    { "src": "/apps", "dest": "/apps.html" },
+    { "src": "/browser", "dest": "/browser.html" },
+    { "src": "/settings", "dest": "/settings.html" },
+    { "src": "/credits", "dest": "/credits.html" },
+    { "src": "/social-media-partners", "dest": "/social-media-partners.html" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
