@@ -1,3 +1,5 @@
 {
-  "outputDirectory": "client"
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "framework": null
 }
