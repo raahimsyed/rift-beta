@@ -1,5 +1,20 @@
 {
   "buildCommand": "",
   "outputDirectory": "public",
-  "framework": null
+  "framework": null,
+
+  "routes": [
+    { "handle": "filesystem" },
+
+    { "src": "^/wisp/(.*)", "dest": "https://YOUR-VPS-DOMAIN/wisp/$1" },
+    { "src": "^/proxy(.*)", "dest": "https://YOUR-VPS-DOMAIN/proxy$1" },
+
+    { "src": "^/assets/(.*)", "dest": "https://YOUR-VPS-DOMAIN/assets/$1" },
+    { "src": "^/components/(.*)", "dest": "https://YOUR-VPS-DOMAIN/components/$1" },
+    { "src": "^/scramjet/(.*)", "dest": "https://YOUR-VPS-DOMAIN/scramjet/$1" },
+    { "src": "^/libcurl/(.*)", "dest": "https://YOUR-VPS-DOMAIN/libcurl/$1" },
+    { "src": "^/baremux/(.*)", "dest": "https://YOUR-VPS-DOMAIN/baremux/$1" },
+
+    { "src": "/.*", "dest": "/index.html" }
+  ]
 }
