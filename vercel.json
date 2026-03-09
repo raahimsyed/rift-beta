@@ -15,6 +15,9 @@
     { "src": "^/libcurl/(.*)", "dest": "https://YOUR-VPS-DOMAIN/libcurl/$1" },
     { "src": "^/baremux/(.*)", "dest": "https://YOUR-VPS-DOMAIN/baremux/$1" },
 
+    { "src": "^/(games|apps|browser|settings|credits|social-media-&-partners|account|chat|music|rift_media|os)$", "dest": "/$1.html" },
+    { "src": "^/(os(?:/[A-Za-z0-9_-]+)+)$", "dest": "/$1.html" },
+
     { "src": "/.*", "dest": "/index.html" }
   ]
 }

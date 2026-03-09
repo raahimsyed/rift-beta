@@ -29,5 +29,35 @@
 
 [[redirects]]
   from = "/social-media-partners"
-  to = "/social-media-partners.html"
+  to = "/social-media-&-partners.html"
+  status = 200
+
+[[redirects]]
+  from = "/account"
+  to = "/account.html"
+  status = 200
+
+[[redirects]]
+  from = "/chat"
+  to = "/chat.html"
+  status = 200
+
+[[redirects]]
+  from = "/music"
+  to = "/music.html"
+  status = 200
+
+[[redirects]]
+  from = "/rift_media"
+  to = "/rift_media.html"
+  status = 200
+
+[[redirects]]
+  from = "/os"
+  to = "/os.html"
+  status = 200
+
+[[redirects]]
+  from = "/os/*"
+  to = "/os/:splat.html"
   status = 200
